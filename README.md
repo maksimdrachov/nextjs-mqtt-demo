@@ -32,3 +32,30 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## MQTT Demo
+
+Create Next.js app: (template from [here](https://nextjs.org/learn/basics/api-routes/setup))
+
+```
+npm init next-app nextjs-mqtt-demo --example "https://github.com/vercel/next-learn/tree/master/basics/api-routes-starter"
+```
+
+Configure Amplify with the app: (from [here](https://docs.amplify.aws/cli/start/install/#pre-requisites-for-installation))
+
+```
+cd nextjs-mqtt-demo
+amplify init
+```
+
+To run locally:
+
+```
+npm run dev
+```
+
+Go to [<http://localhost:3000>](http://localhost:3000)
+
+
+
+
